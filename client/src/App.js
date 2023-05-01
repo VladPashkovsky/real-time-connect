@@ -1,9 +1,10 @@
 import './App.css';
+import LongPulling from './LongPulling'
 
 function App() {
   return (
     <div>
-
+      <LongPulling />
     </div>
   );
 }
