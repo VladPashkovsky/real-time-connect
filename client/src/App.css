@@ -15,7 +15,7 @@
   padding: 40px;
   width: 400px;
   border-radius: 8px;
-  border: 2px solid teal;
+  border: 2px solid #5b1930;
   display: flex;
   flex-direction: column;
 }
@@ -24,18 +24,23 @@
   min-width: 300px;
   width: 100%;
   padding: 5px 10px;
-  border: teal 1px solid;
+  border: #5b1930 1px solid;
 }
 
 .form button {
   margin-top: 15px;
   margin-left: auto;
-  border: teal 1px solid;
+  border: #5b1930 1px solid;
+  border-radius: 5%;
   background: none;
   padding: 10px 15px;
   font-weight: bold;
-  color: teal;
+  color: #5b1930;
   cursor: pointer;
+}
+
+.form button:hover {
+  background: rgba(210, 103, 103, 0.62);
 }
 
 .form button:focus, .form input:focus {
@@ -49,7 +54,7 @@
 
 .message {
   width: 400px;
-  border: 2px solid teal;
+  border: 2px solid #5b1930;
   border-radius: 8px;
   padding: 15px;
   margin-top: 15px;
