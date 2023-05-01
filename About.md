@@ -17,3 +17,9 @@
 5. Переходим в client и создаем LongPulling.jsx
 6. Устанавливаем в клиент npm i axios
 7. Для получения сообщений используем useEffect
+
+========================================================
+
+8. Event sourcing
+    Создаем в server новый файл eventsourcing.js и меняем название файла в скрипте
+9. В EventSourcing.jsx меняем функцию subscribe
