@@ -20,6 +20,7 @@
   flex-direction: column;
 }
 
+
 .form input {
   min-width: 300px;
   width: 100%;
@@ -50,6 +51,7 @@
 .connection_message {
   width: 400px;
   text-align: center;
+  font-weight: bold;
 }
 
 .message {
